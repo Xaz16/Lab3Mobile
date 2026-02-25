@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Советы на каждый день</string>
+    <string name="screen_title">30 дней саморазвития</string>
+    <string name="day_label">День %d</string>
+</resources>
