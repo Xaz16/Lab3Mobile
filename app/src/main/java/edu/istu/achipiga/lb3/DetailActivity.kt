@@ -23,6 +23,7 @@ class DetailActivity : AppCompatActivity() {
             return
         }
 
+        supportActionBar?.title = getString(tip.titleResId)
         findViewById<TextView>(R.id.detail_day_number).text = getString(R.string.day_label, tip.dayNumber)
         findViewById<TextView>(R.id.detail_title).text = getString(tip.titleResId)
         findViewById<ImageView>(R.id.detail_image).setImageResource(tip.imageResId)

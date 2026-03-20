@@ -12,9 +12,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar).apply {
-            setTitle(R.string.screen_title)
-        }
+        val toolbar = findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+        supportActionBar?.title = getString(R.string.screen_title)
 
         val recycler = findViewById<RecyclerView>(R.id.recycler_tips)
         recycler.layoutManager = LinearLayoutManager(this)
