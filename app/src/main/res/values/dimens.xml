@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="item_padding">16dp</dimen>
+    <dimen name="item_spacing">12dp</dimen>
+    <dimen name="image_height">120dp</dimen>
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_day">12sp</dimen>
+    <dimen name="detail_image_height">200dp</dimen>
+</resources>
